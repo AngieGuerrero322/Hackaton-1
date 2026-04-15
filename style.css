@@ -51,7 +51,7 @@ body {
     text-decoration: none;
     color: var(--color-b);
     font-size: 1.2rem;
-    padding: 15px 20px;
+    padding: 10px 20px;
 }
 
 .nav__link:hover {    
@@ -114,7 +114,7 @@ body {
     border: 4px dashed var(--color-b);
 }
 
-/* ------------- OFERTAS -------------- */
+/* ------------- PRODUCTOS -------------- */
 .products {
     width: 70%;
     padding: 50px;
@@ -196,4 +196,91 @@ body {
     outline: 4px solid var(--color-a);
     cursor: pointer;
     box-shadow: 0 0 10px 2px #0e0916;
+}
+
+
+/* --------- CARRITO DE COMPRAS ---------- */
+.cart {
+    width: 30%;
+    height: 100%;
+    padding: 25px;
+    position: fixed;
+    top: 120px;
+    right: 0;
+    overflow-y: auto;
+    background-color: #dddddd;
+}
+
+.cart__item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.cart__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cart__data {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart__price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ff6d0b;
+}
+
+.cart__addAndSubtract {
+    display: flex;
+    gap: 30px;
+}
+
+.cart__button-add {
+    padding: 5px 12px;
+    background-color: #cbcbcb;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.cart__adds {
+    font-size: 1.8rem;
+}
+
+.cart__trash {
+    border: none;
+    align-self: end;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.cart__counter {
+    background-color: var(--color-a);
+    color: #dddddd;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+
+img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 30%;
 }

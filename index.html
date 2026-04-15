@@ -37,11 +37,9 @@
                 <button class="offers__button">🍔 Ver Menu completo</button>
                 <button class="offers__button button--color">🎁 Ver promociones</button>
             </div>
-        
 
         <!-- Productos -->
-
-        <div class="products">
+        <div class="products" id="productosContenedor">
 
             <!-- PRODUCTO 1 -->
             <div class="product__card">
@@ -55,10 +53,9 @@
                 </div>                    
             </div>
 
-
-            <!-- PRODUCTO 2 -->
+            <!-- PRODUCTO 1 -->
             <div class="product__card">
-                <img class="product__img" src="https://i.postimg.cc/CLv1H5Jg/Arrozconpollo.jpg" alt="">
+                <img class="product__img" src="https://i.postimg.cc/zXdBSvp1/Ajiaco.jpg" alt="">
 
                 <div class="product__info">
                     <p class="product__info-title">AUDIFONOS</p>
@@ -69,6 +66,45 @@
             </div>
 
         </div>
+        
+        <div class="cart">
+
+            <h2 class="products__title">🛒 CARRITO <span class="cart__counter">0</span></h2>
+
+            <div class="dividing-line"></div>
+
+            <!-- Productos agregados al carrito -->
+            <ul id="listProducts">
+                <!-- <li class="cart__item">
+
+                    <img class="cart__img" src="/Bandeja-paisa.jpg" alt="">
+
+                    <div class="cart__data">
+                        <p class="cart__title">Bandeja Paisa</p>
+                        <p class="cart__price">$25.000</p>
+
+                        <div class="cart__addAndSubtract">
+                            <button class="cart__button-add">-</button>
+                            <span class="cart__adds">1</span>
+                            <button class="cart__button-add">+</button>
+                        </div>
+
+                    </div>
+
+                    <button class="cart__trash">🗑️</button>
+                </li> -->
+            </ul>
+
+            <div class="total">
+                <p class="total__total">Total:</p>
+                <p class="total__total total--price-color">$ <span>0</span>
+                </p>
+            </div>
+
+            <button class="product__button button--buy">💳 Finalizar compra</button>
+
+        </div>
+        
     </main> 
     
     <script type="module" src="scripts/app.js"></script>
