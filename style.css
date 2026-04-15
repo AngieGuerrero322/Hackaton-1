@@ -278,9 +278,14 @@ body {
 }
 
 
-img {
-    width: 150px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 30%;
+.product_button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: var(--color-a);
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    color: var(--color-b);
+    font-weight: bold;
+    font-size: 1.2rem;
 }

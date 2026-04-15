@@ -21,6 +21,7 @@ function crearProductosDisponibles (productosDisponibles){
     product_bg.classList.add("product_bg");
 
     let product_img=document.createElement("img");
+    product_img.classList.add("product__img");
     
     product_img.src=plato.imagen;
     // div de product info
